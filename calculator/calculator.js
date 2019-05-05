@@ -15,7 +15,6 @@ function sum (array) {
 }
 
 function multiply (array) {
-	//TODO: Check out array.reduce!
 	return array.length
       ? array.reduce((accumulator, nextItem) => accumulator * nextItem)
       : 0;
